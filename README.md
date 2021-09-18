@@ -1,4 +1,4 @@
-# LWC-Development
+# LWC-Development Learing Guide
 Lightning Web Components javascript framework fundamentals
 
 # To see the entire learning guide I will be covering, visit my project page: https://github.com/Ma1nframe/LWC-Development/projects/1 which breaks things down by sections and tasks in a kanban style view. 
