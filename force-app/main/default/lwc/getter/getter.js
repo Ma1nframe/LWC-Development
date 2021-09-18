@@ -5,7 +5,7 @@ export default class Getter extends LightningElement {
     users = ['John', 'MIke', 'Steve'];
 
     get firstUser() {
-        return this.users[0];
+        return this.users[0].toUpperCase();
     }
 
     num1 = 10;
