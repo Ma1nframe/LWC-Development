@@ -3,7 +3,7 @@ Lightning Web Components javascript framework fundamentals
 
 # To see the entire learning guide I will be covering, visit my project page: https://github.com/Ma1nframe/LWC-Development/projects/1 which breaks things down by sections and tasks in a kanban style view. 
 
-A lot of material will be covered in this learning guide and you are encouran=ged to follow along here on GitHub. I will be doing the version tracking control through both GitHub and scratch Orgs to provide anyone with interst in picking up the fast growing framework here on Github as I progress through stages that you can later follow along in. Any declarative work on the Org that will need to be done will be provided in either video or PDF format.
+A lot of material will be covered in this learning guide and you are encouraged to follow along here on GitHub. I will be doing the version tracking control through both GitHub and scratch Orgs to provide anyone with interst in picking up the fast growing framework as I progress through stages that you can later follow along in. Any declarative work on the Org that will need to be done will be provided in either video or PDF format.
 
 ## How am I deploying my changes?
 
