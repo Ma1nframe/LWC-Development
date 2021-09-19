@@ -12,7 +12,7 @@ export default class HelloWorld extends LightningElement {
         place: 'Boston',
 
     }
-    userList = ['a', 'b', 'c']; // array
+    userList = ['a', 'b', 'c']; // list array
     */
 
     /** DATA BINDING */
