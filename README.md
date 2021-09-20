@@ -1,13 +1,22 @@
 # LWC-Development Learing Guide
-Lightning Web Components javascript framework fundamentals
+Lightning Web Components javascript framework fundamentals.
+Changes applied to code base are being simultaneously tracked on Github and with scratch orgs.
+
+## How to run in your Devhub.
+### From your CLI type these commands:
+sfdx force:source:convert -d metadatadeploy
+*this will create a folder in your directory that changes the source files into metadata files to deploy to your project*
+
+sfdx force:mdapi:deploy -d metadatadeploy -w 5 -u <project>
+*if you fail to load all components then none of them will load. Open the .forceignore file and place the files in there so they will be skipped when deploying*
 
 ## To see the entire learning guide I will be covering, visit my project page: https://github.com/Ma1nframe/LWC-Development/projects/1 which breaks things down by sections and tasks in a kanban style view 
 
 A lot of material will be covered in this learning guide and you are encouraged to follow along here on GitHub. I will be doing the version tracking control through both GitHub and scratch Orgs to provide anyone with interst in picking up the fast growing framework as I progress through stages that you can later follow along in. Any declarative work on the Org that will need to be done will be provided in either video or PDF format.
 
-## How am I deploying my changes?
+## How am I tracking my changes?
 
-Changes applied to code base are being simultaneously tracked on Github and with scratch orgs.
+Changes applied to code base are being simultaneously tracked on Github and with Scratch Orgs.
 
 ## Configure Your Salesforce DX Project
 
