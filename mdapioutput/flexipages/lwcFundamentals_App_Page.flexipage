@@ -11,11 +11,6 @@
                 <componentName>methods</componentName>
             </componentInstance>
         </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentName>trackComponent</componentName>
-            </componentInstance>
-        </itemInstances>
         <name>region1</name>
         <type>Region</type>
     </flexiPageRegions>
@@ -23,6 +18,11 @@
         <itemInstances>
             <componentInstance>
                 <componentName>getter</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>trackComponent</componentName>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -42,7 +42,7 @@
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>LWC Fundamentals</masterLabel>
+    <masterLabel>lwcFundamentals App Page</masterLabel>
     <template>
         <name>flexipage:appHomeTemplateThreeColumns</name>
     </template>

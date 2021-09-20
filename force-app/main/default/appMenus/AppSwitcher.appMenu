@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AppMenu xmlns="http://soap.sforce.com/2006/04/metadata">
     <appMenuItems>
+        <name>lwcFundamentals</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>standard__Platform</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -41,27 +45,7 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__Insights</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__LightningSalesConsole</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__LightningService</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>standard__LightningSales</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__LightningInstrumentation</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__SalesforceCMS</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
@@ -69,27 +53,15 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__QueueManagement</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__LightningScheduler</name>
-        <type>CustomApplication</type>
+        <name>CPQIntegrationUserApp</name>
+        <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
         <name>standard__LightningBolt</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>DEVHUB_ujqmcoi7j8ag8tqax2d7</name>
-        <type>ConnectedApp</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Recruiting</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>lwcFundamentals</name>
+        <name>standard__SalesforceCMS</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>
