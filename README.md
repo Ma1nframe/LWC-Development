@@ -7,7 +7,7 @@ Changes applied to code base are being simultaneously tracked on Github and with
 sfdx force:source:convert -d metadatadeploy
 *this will create a folder in your directory that changes the source files into metadata files to deploy to your project*
 
-sfdx force:mdapi:deploy -d metadatadeploy -w 5 -u <project>
+sfdx force:mdapi:deploy -d metadatadeploy -w 5 -u myOrg
 *if you fail to load all components then none of them will load. Open the .forceignore file and place the files in there so they will be skipped when deploying*
 
 ## To see the entire learning guide I will be covering, visit my project page: https://github.com/Ma1nframe/LWC-Development/projects/1 which breaks things down by sections and tasks in a kanban style view 
