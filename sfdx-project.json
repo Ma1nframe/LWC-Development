@@ -1,4 +1,23 @@
 {
+<<<<<<< HEAD
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "lwcFundamentalsPkg1",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "name": "LWC-Fundamentals",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "lwcFundamentalsPkg1": "0Ho5e000000KzOBCA0"
+    }
+}
+=======
   "packageDirectories": [
     {
       "path": "force-app",
@@ -10,3 +29,4 @@
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "52.0"
 }
+>>>>>>> Committing sfdx setup files for project

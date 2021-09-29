@@ -19,6 +19,7 @@
         <members>getter</members>
         <members>helloWorld</members>
         <members>methods</members>
+        <members>myQuizApp</members>
         <members>quizApp</members>
         <members>templateLooping</members>
         <members>trackComponent</members>
