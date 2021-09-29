@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # LWC-Development Learing Guide
 Lightning Web Components javascript framework fundamentals.
 Changes applied to code base are being simultaneously tracked on Github and with scratch orgs.
@@ -10,6 +9,16 @@ sfdx force:source:convert -d metadatadeploy
 
 sfdx force:mdapi:deploy -d metadatadeploy -w 5 -u myOrg
 *if you fail to load all components then none of them will load. Open the .forceignore file and place the files in there so they will be skipped when deploying*
+
+## Unmanaged package included in bundle:
+- ID                             08c5e000000KzXkAAK
+- Status                         Success
+- Package Id                     0Ho5e000000KzOBCA0
+- Package Version Id             05i5e000000Gn8fAAC
+- Subscriber Package Version Id  04t5e000000JjtDAAS
+- Created Date                   2021-09-28 23:04
+- Installation URL               https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000JjtDAAS
+
 
 ## To see the entire learning guide I will be covering, visit my project page: https://github.com/Ma1nframe/LWC-Development/projects/1 which breaks things down by sections and tasks in a kanban style view 
 
