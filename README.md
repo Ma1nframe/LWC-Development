@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # LWC-Development Learing Guide
 Lightning Web Components javascript framework fundamentals.
 Changes applied to code base are being simultaneously tracked on Github and with scratch orgs.
