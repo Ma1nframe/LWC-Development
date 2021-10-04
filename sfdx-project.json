@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "packageDirectories": [
         {
             "path": "force-app",
@@ -17,16 +16,3 @@
         "lwcFundamentalsPkg1": "0Ho5e000000KzOBCA0"
     }
 }
-=======
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    }
-  ],
-  "name": "LWC-Fundamentals",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "52.0"
-}
->>>>>>> Committing sfdx setup files for project

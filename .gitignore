@@ -35,7 +35,6 @@ ehthumbs.db
 $RECYCLE.BIN/
 
 # Local environment variables
-<<<<<<< HEAD
 .env
 
 # Source files to ignore
@@ -45,6 +44,3 @@ force-app/main/default/profiles/Custom%3A Sales Profile.profile
 force-app/main/default/profiles/Custom%3A Support Profile.profile
 force-app/main/default/profiles/ReadOnly.profile-meta.xml
 force-app/main/default/appMenus/AppSwitcher.appMenu
-=======
-.env
->>>>>>> Committing sfdx setup files for project
