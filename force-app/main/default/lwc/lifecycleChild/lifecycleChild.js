@@ -19,12 +19,16 @@ export default class LifecycleChild extends LightningElement {
         console.log('Child renderedCallback() called');
     }
 
+    // clickHandler() {
+    //    let fooBar = this.template.querySelector('.foo');
+    //    fooBar.innerHTML = "This is the child component"; 
+    // }
 
-/***** THIS WILL NOT WORK AS IT DOES IN PARENT *****/
-//     // Creating property name
-//     foo;
-//     // Creating changeHandler
-//     changeHandler(event) {
-//         this.name = event.target.value
-//     }
+    foobar;
+    clickHandler() {
+        this.foobar = "This is the child component";
+    }
+    resetHandler() {
+        this.foobar = null;
+    }
 }
