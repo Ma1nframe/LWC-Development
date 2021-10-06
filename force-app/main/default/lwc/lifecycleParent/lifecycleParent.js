@@ -2,6 +2,8 @@ import { LightningElement } from 'lwc';
 
 export default class LifecycleParent extends LightningElement {
 
+    isChildVisible = false;
+
     constructor() {
         super()
         // Can't use querySelector yet because html is not yet rendered. We can only use this.template to add something likde a listener.
@@ -27,4 +29,8 @@ export default class LifecycleParent extends LightningElement {
         this.name = event.target.value
     }
 
+    handleClick() {
+        // Toggle true/false
+        this.isChildVisible = !this.isChildVisible;
+    }
 }

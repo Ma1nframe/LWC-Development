@@ -9,10 +9,17 @@ export default class LifecycleChild extends LightningElement {
         console.log('Child constructor() called');
     }
 
+    // Example of usage with connected/disconnected Callbacks: setting/clearing the interval to prevent memory leaks
+    interval;
+    msg() {
+        console.log('setInterval called in child component')
+    }
+
     connectedCallback() {
         // Used to fetch data on page from seerver while component loads
         // Calls to Apex can be made here
         console.log('Child connectedCallback() called');
+        this.interval = window.setInterval(this.msg, 5000)
     }
 
     renderedCallback() {
@@ -31,4 +38,12 @@ export default class LifecycleChild extends LightningElement {
     resetHandler() {
         this.foobar = null;
     }
+
+    disconnectedCallback() {
+        alert('Child disconnectedCallback() was executed and clearInterval was called');
+        // when disconnectedCallback() is executed it will call clearInterval to prevent memory leaks
+        window.clearInterval(this.interval); 
+    }
+
+
 }
