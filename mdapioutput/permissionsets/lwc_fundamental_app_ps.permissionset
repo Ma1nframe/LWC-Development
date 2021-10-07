@@ -7,4 +7,12 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>lwc fundamental app ps</label>
     <license>Salesforce</license>
+    <tabSettings>
+        <tab>lwcFundamentals_App_Page</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>quiz_app_page</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>

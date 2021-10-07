@@ -11,10 +11,6 @@
                 <componentName>methods</componentName>
             </componentInstance>
         </itemInstances>
-        <name>region1</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentName>getter</componentName>
@@ -30,13 +26,27 @@
                 <componentName>conditionalRendering</componentName>
             </componentInstance>
         </itemInstances>
-        <name>region2</name>
+        <name>region1</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentName>templateLooping</componentName>
+            </componentInstance>
+        </itemInstances>
+        <name>region2</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>componentParent</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>helloQuerySelector</componentName>
             </componentInstance>
         </itemInstances>
         <name>region3</name>
