@@ -6,21 +6,30 @@
     </types>
     <types>
         <members>lwcFundamentals</members>
+        <members>standard__LightningBolt</members>
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>Lifecycle_Hooks</members>
         <members>lwcFundamentals_App_Page</members>
         <members>lwcFundamentals_UtilityBar</members>
         <members>quiz_app_page</members>
+        <members>render_method</members>
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>componentChild</members>
+        <members>componentParent</members>
         <members>conditionalRendering</members>
         <members>getter</members>
+        <members>helloQuerySelector</members>
         <members>helloWorld</members>
+        <members>lifecycleChild</members>
+        <members>lifecycleParent</members>
         <members>methods</members>
         <members>myQuizApp</members>
         <members>quizApp</members>
+        <members>renderMethod</members>
         <members>templateLooping</members>
         <members>trackComponent</members>
         <name>LightningComponentBundle</name>
@@ -30,8 +39,10 @@
         <name>PermissionSet</name>
     </types>
     <types>
+        <members>Lifecycle_Hooks</members>
         <members>lwcFundamentals_App_Page</members>
         <members>quiz_app_page</members>
+        <members>render_method</members>
         <name>CustomTab</name>
     </types>
     <version>52.0</version>
