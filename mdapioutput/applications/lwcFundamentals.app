@@ -13,6 +13,8 @@
     <navType>Standard</navType>
     <tabs>lwcFundamentals_App_Page</tabs>
     <tabs>quiz_app_page</tabs>
+    <tabs>Lifecycle_Hooks</tabs>
+    <tabs>render_method</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>lwcFundamentals_UtilityBar</utilityBar>
 </CustomApplication>

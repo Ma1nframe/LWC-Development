@@ -9,6 +9,14 @@
         <type>CustomTab</type>
     </appMenuItems>
     <appMenuItems>
+        <name>Lifecycle_Hooks</name>
+        <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>render_method</name>
+        <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>EinsteinInsights</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
