@@ -28,6 +28,11 @@
         <members>lifecycleParent</members>
         <members>methods</members>
         <members>myQuizApp</members>
+        <members>p2cAlertComponent</members>
+        <members>p2cCarouselComponent</members>
+        <members>p2cParentComponent</members>
+        <members>p2cProgressComponent</members>
+        <members>p2cSliderComponent</members>
         <members>quizApp</members>
         <members>renderMethod</members>
         <members>templateLooping</members>
