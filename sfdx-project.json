@@ -22,6 +22,7 @@
     "packageAliases": {
         "lwcFundamentalsPkg1": "0Ho5e000000KzOBCA0",
         "LwcPkg1": "0Ho5e000000KzOQCA0",
-        "LwcPkg1@0.1.0-1": "04t5e000000JkDeAAK"
+        "LwcPkg1@0.1.0-1": "04t5e000000JkDeAAK",
+        "LwcPkg1@0.1.0-2": "04t5e000000JkDoAAK"
     }
 }
