@@ -12,6 +12,7 @@
     <label>lwcFundamentals</label>
     <navType>Standard</navType>
     <tabs>lwcFundamentals_App_Page</tabs>
+    <tabs>lwc_to_lwc_communication</tabs>
     <tabs>quiz_app_page</tabs>
     <tabs>Lifecycle_Hooks</tabs>
     <tabs>render_method</tabs>
