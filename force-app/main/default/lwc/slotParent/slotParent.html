@@ -1,3 +1,21 @@
 <template>
-    
+    <lightning-card class="slds-var-m-around_medium" title="Parent Slot Component">
+        <div class="slds-var-m-around_medium">
+            <c-slot-child>
+                <p style="color:blue;" slot="first">This text is coming from within the child tags on the parent component</p>
+                <p style="color:green;" slot="second">I'm also coming from within the child tags on the parent component</p>
+                <p style="color:orange;" slot="footer">I am the footer</p>
+            </c-slot-child>
+        </div>
+        <div class="slds-var-m-around_medium">
+            <c-slot-child>
+                <p style="color:blue;" slot="first">This text is coming from within the child tags on the parent component</p>
+                <p style="color:green;" slot="second">I'm also coming from within the child tags on the parent component</p>
+                <p style="color:red;" slot="third">Notice no footer element here? We use logic in the child's js file to hide the whole element
+                    otherwise if we don't request the footer slot an empty one still appears.
+                </p>
+                <!-- <p style="color:orange;" slot="footer">I am the footer</p> -->
+            </c-slot-child>
+        </div>
+    </lightning-card>
 </template>

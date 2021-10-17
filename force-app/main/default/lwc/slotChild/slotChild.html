@@ -1,3 +1,16 @@
 <template>
-    
+    <div>Where are you coming from?</div>
+    <div class="slds-var-m-around_medium">
+        <slot name="first"></slot>
+    </div>
+    <div>How about you?</div>
+    <div class="slds-var-m-around_medium">
+        <slot name="second"></slot>
+    </div>
+    <div class="slds-var-m-around_medium dhe slds-hide">
+        <slot name="third" onslotchange={handleDivChange}></slot>
+    </div>    
+    <footer class="slds-card__footer slds-hide">
+        <slot name="footer" onslotchange={handleFooterChange}></slot>
+    </footer>
 </template>
