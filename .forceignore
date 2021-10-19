@@ -10,5 +10,8 @@
 **/__tests__/**
 
 # Source files to ignore
-force-app/main/default/profiles/*
+force-app/main/default/profiles/
 AppSwitcher.appMenu
+
+#NPM
+node_modules/
