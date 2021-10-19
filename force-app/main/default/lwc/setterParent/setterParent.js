@@ -1,14 +1,8 @@
-import { LightningElement } from 'lwc';
+import { LightningElement } from "lwc";
 
 export default class SetterParent extends LightningElement {
-
-    userDetails = {
-        userName: "Anthony",
-        userAge: 35
-    }
-
-    handleClick() {
-        
-    }
-
+  userDetails = {
+    userName: "Anthony",
+    userAge: 35
+  };
 }
