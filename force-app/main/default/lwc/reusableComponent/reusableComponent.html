@@ -1,0 +1,42 @@
+<template>
+  <div class="slds-var-m-around_medium">
+    <c-reusable-lightning-card>
+      <!-- <lightning-card variant="narrow" icon-name="standard:opportunity"> -->
+      <h1 slot="title">This is a title</h1>
+      <h1>This is the body</h1>
+      <div slot="actions">
+        <lightning-button-icon icon-name="utility:down"></lightning-button-icon>
+      </div>
+      <div slot="footer">
+        <h6>This is the footer</h6>
+      </div>
+    </c-reusable-lightning-card>
+    <!-- </lightning-card> -->
+  </div>
+  <!-- REMOVE FOOTER -->
+  <div class="slds-var-m-around_medium">
+    <c-reusable-lightning-card>
+      <h1 slot="title">This card has no footer</h1>
+      <h1>This is the body</h1>
+      <div slot="actions">
+        <lightning-button-icon icon-name="utility:down"></lightning-button-icon>
+      </div>
+    </c-reusable-lightning-card>
+  </div>
+  <!-- REMOVE ACTION -->
+  <div class="slds-var-m-around_medium">
+    <c-reusable-lightning-card>
+      <h1 slot="title">This card has no action</h1>
+      <h1>This is the body</h1>
+      <div slot="footer">
+        <h6>This is the footer</h6>
+      </div>
+    </c-reusable-lightning-card>
+  </div>
+  <!-- REMOVE FOOTER AND BODY -->
+  <div class="slds-var-m-around_medium">
+    <c-reusable-lightning-card>
+      <h1 slot="title">This card only has a header title</h1>
+    </c-reusable-lightning-card>
+  </div>
+</template>
