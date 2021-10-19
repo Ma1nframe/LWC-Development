@@ -1,0 +1,93 @@
+<template>
+  <lightning-card title="Quiz app in LWC">
+    <div class="slds-var-m-around_medium">
+      <template if:true={isSubmitted}>
+        <div class={isScoredFull}>
+          You have scored {correctAnswers} out of {myQuestions.length}
+        </div>
+        <br />
+      </template>
+      <form>
+        <template for:each={myQuestions} for:item="quiz">
+          <div key={quiz.id}>
+            <div><strong>{quiz.id}</strong> - {quiz.question}</div>
+            <div class="slds-grid slds-gutters slds-var-p-bottom_medium">
+              <div
+                class="slds-col"
+                style="
+                  border: outset 1px black;
+                  max-width: 250px;
+                  margin: auto;
+                  padding: 5px;
+                "
+              >
+                <input
+                  type="radio"
+                  name={quiz.id}
+                  value="a"
+                  onchange={changeHandler}
+                  style="margin-right: 15px"
+                />
+                {quiz.answers.a}
+              </div>
+              <div
+                class="slds-col"
+                style="
+                  border: outset 1px black;
+                  max-width: 250px;
+                  padding: 5px;
+                  margin: auto;
+                "
+              >
+                <input
+                  type="radio"
+                  name={quiz.id}
+                  value="b"
+                  onchange={changeHandler}
+                  style="margin-right: 15px"
+                />
+                {quiz.answers.b}
+              </div>
+              <div
+                class="slds-col"
+                style="
+                  border: outset 1px black;
+                  max-width: 250px;
+                  padding: 5px;
+                  margin: auto;
+                "
+              >
+                <input
+                  type="radio"
+                  name={quiz.id}
+                  value="c"
+                  onchange={changeHandler}
+                  style="margin-right: 15px"
+                />
+                {quiz.answers.c}
+              </div>
+            </div>
+          </div>
+          &nbsp;
+        </template>
+        <lightning-button
+          variant="brand"
+          type="submit"
+          label="Submit"
+          title="Submit Quiz"
+          class="slds-var-m-around_small"
+          disabled={allNotSelected}
+          onclick={submitHandler}
+        ></lightning-button>
+        <lightning-button
+          variant="brand"
+          type="reset"
+          label="Reset"
+          title="Reset Quiz"
+          class="slds-var-m-around_small"
+          onclick={resetHandler}
+        ></lightning-button>
+      </form>
+    </div>
+  </lightning-card>
+</template>

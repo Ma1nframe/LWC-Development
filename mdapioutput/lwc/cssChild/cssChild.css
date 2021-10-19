@@ -1,0 +1,12 @@
+/***** Appears on host element (c-css-child) in the Parent. *****/
+/* "background-color" won't show unless you declare "display:block". */
+
+:host {
+  display: block;
+  background-color: lightgrey;
+}
+
+:host(.foo) {
+  font-style: italic;
+  font-weight: bold;
+}

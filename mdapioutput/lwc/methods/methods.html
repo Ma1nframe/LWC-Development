@@ -1,0 +1,10 @@
+<template>
+  <!-- Salesforce conponent library card -->
+  <lightning-card title="two way data binding">
+    <div class="slds-var-m-around_medium">
+      <lightning-input type="text" onkeyup={changeHandler}></lightning-input>
+      <br />
+      <div>{fullname} is a {title}</div>
+    </div>
+  </lightning-card>
+</template>
