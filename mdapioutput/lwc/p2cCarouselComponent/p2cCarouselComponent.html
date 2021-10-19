@@ -1,0 +1,18 @@
+<template>
+  <lightning-card
+    title="Parent to child communication with carousel"
+    class="slds-var-m-around_medium"
+  >
+    <lightning-carousel disable-auto-scroll>
+      <template for:each={carouselDetails} for:item="foo">
+        <lightning-carousel-image
+          key={foo.header}
+          src={foo.src}
+          header={foo.header}
+          description={foo.description}
+        >
+        </lightning-carousel-image>
+      </template>
+    </lightning-carousel>
+  </lightning-card>
+</template>

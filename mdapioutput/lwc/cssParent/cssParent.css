@@ -1,0 +1,18 @@
+/***** Appear on Parent only *****/
+h1 {
+  font-size: 37px;
+  color: blue;
+}
+
+/***** Appears on host element (child) *****/
+
+c-css-child {
+  color: red;
+}
+
+/** The host element c-css-child sends the <p> tags to the child slot. However it's on th parent page so it's styled here. **/
+/** This Seems to overwrite the other CSS directives **/
+p {
+  font-size: 20px;
+  color: green;
+}
