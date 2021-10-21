@@ -1,0 +1,21 @@
+<template>
+  <lightning-card class="slds-var-m-around_medium" title="LMS component X">
+    <div class="slds-var-m-around_medium">
+      <lightning-input
+        type="text"
+        label="Enter message to publish"
+        onkeyup={inputHandler}
+      ></lightning-input>
+    </div>
+    <div class="slds-var-m-around_medium">
+      <lightning-button
+        variant="brand"
+        type="submit"
+        label="Submit"
+        title="Submit"
+        class="slds-var-m-around_small"
+        onclick={publishMessage}
+      ></lightning-button>
+    </div>
+  </lightning-card>
+</template>

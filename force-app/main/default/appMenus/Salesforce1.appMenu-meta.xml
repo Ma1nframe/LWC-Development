@@ -41,6 +41,10 @@
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
+        <name>Lightning_Message_Service</name>
+        <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>Aura_Lwc_Communications</name>
         <type>CustomTab</type>
     </appMenuItems>
