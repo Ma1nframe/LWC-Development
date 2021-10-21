@@ -14,7 +14,7 @@ export default class LmsComponentY extends LightningElement {
   @wire(MessageContext)
   context;
 
-  // We want subscribeMessage to be called on page load so we place it in connectedCallback() which if fired on page load
+  // We want subscriptionMessage to be called on page load so we place it in connectedCallback() which if fired on page load
   connectedCallback() {
     this.subscriptionMessage();
   }
