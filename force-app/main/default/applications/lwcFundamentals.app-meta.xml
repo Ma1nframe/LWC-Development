@@ -18,6 +18,7 @@
     <tabs>Lifecycle_Hooks</tabs>
     <tabs>render_method</tabs>
     <tabs>Reusable_Components</tabs>
+    <tabs>Lightning_Message_Service</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>lwcFundamentals_UtilityBar</utilityBar>
 </CustomApplication>
