@@ -2,10 +2,10 @@ import { LightningElement, wire } from "lwc";
 import SAMPLEMC from "@salesforce/messageChannel/lightningMessage__c";
 import { MessageContext, publish } from "lightning/messageService";
 export default class LmsComponentX extends LightningElement {
+  inputValue;
+
   @wire(MessageContext)
   context;
-
-  inputValue;
 
   inputHandler(event) {
     this.inputValue = event.target.value;
