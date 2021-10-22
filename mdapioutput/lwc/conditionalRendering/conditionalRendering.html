@@ -1,19 +1,24 @@
 <template>
-    <lightning-card title="Conditional Rendering">
-        <div class="slds-var-m-around_medium">
-            <!-- Brand variant: Identifies the primary action in a group of buttons -->
-            <lightning-button variant="brand" label="Show Data" title="Show Data" onclick={handleClick}></lightning-button>
-            <template if:false={isShow}>
-                <div>Click to see Hidden Text</div>
-            </template>
-            <template if:true={isShow}>
-                <div>Hidden Text</div>
-            </template>
-            <lightning-input type="text" onkeyup={changeHandler}></lightning-input>
-                <div>What is black and white and red all over?</div>
-                <template if:true={riddleMethod}>
-                    <div>You answered correctly</div>
-                </template>        
-        </div>
-    </lightning-card>   
+  <lightning-card title="Conditional Rendering">
+    <div class="slds-var-m-around_medium">
+      <!-- Brand variant: Identifies the primary action in a group of buttons -->
+      <lightning-button
+        variant="brand"
+        label="Show Data"
+        title="Show Data"
+        onclick={handleClick}
+      ></lightning-button>
+      <template if:false={isShow}>
+        <div>Click to see Hidden Text</div>
+      </template>
+      <template if:true={isShow}>
+        <div>Hidden Text</div>
+      </template>
+      <lightning-input type="text" onkeyup={changeHandler}></lightning-input>
+      <div>What is black and white and red all over?</div>
+      <template if:true={riddleMethod}>
+        <div>You answered correctly</div>
+      </template>
+    </div>
+  </lightning-card>
 </template>

@@ -1,28 +1,20 @@
 {
-    "packageDirectories": [
-        {
-            "path": "force-app",
-            "default": true,
-            "package": "lwcFundamentalsPkg1",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
-        },
-        {
-            "path": "force-app",
-            "package": "LwcPkg1",
-            "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
-            "default": false
-        }
-    ],
-    "name": "LWC-Fundamentals",
-    "namespace": "",
-    "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "52.0",
-    "packageAliases": {
-        "lwcFundamentalsPkg1": "0Ho5e000000KzOBCA0",
-        "LwcPkg1": "0Ho5e000000KzOQCA0",
-        "LwcPkg1@0.1.0-1": "04t5e000000JkDeAAK",
-        "LwcPkg1@0.1.0-2": "04t5e000000JkDoAAK"
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "LWC",
+      "versionName": "ver 1.0",
+      "versionNumber": "1.0.1.0"
     }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "52.0",
+  "packageAliases": {
+    "LWC": "0Ho5e000000KzOuCAK",
+    "LWC@0.1.0-1": "04t5e000000JkIoAAK",
+    "LWC@1.0.0-0": "04t5e000000JkKuAAK",
+    "LWC@1.0.1-0": "04t5e000000JkKzAAK"
+  }
 }

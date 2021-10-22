@@ -1,32 +1,40 @@
 <template>
-    <!-- PRIMITIVE DATA EXAMPLE - p2cAlertComponent-->
-    <c-p2c-alert-component 
+  <!-- PRIMITIVE DATA EXAMPLE - p2cAlertComponent-->
+  <c-p2c-alert-component
     message="Hooray, parent passing string into child component"
     card-heading="Parent to child primitive data communication"
-    number=10
+    number="10"
     is-valid
-    ></c-p2c-alert-component>
+  ></c-p2c-alert-component>
 
-    <br />
-    <!-- COMPLEX DATA EXAMPLE - p2cCarouselComponent -->
-    <c-p2c-carousel-component
+  <br />
+  <!-- COMPLEX DATA EXAMPLE - p2cCarouselComponent -->
+  <c-p2c-carousel-component
     carousel-details={carouselData}
-    ></c-p2c-carousel-component>
+  ></c-p2c-carousel-component>
 
-    <br />
-    <!-- PASSING DATA ON ACTION EXAMPLE  - p2cProgressComponent-->
-    <lightning-card title="Parent to child communication on action">
-        <div class="slds-var-m-around_medium">
-            <lightning-input type="number" label="Enter Percentage" onkeyup={changeHandler} value={percentage}></lightning-input>
-            <c-p2c-progress-component
-            progress-value={percentage}
-            ></c-p2c-progress-component>
-        </div>
-    </lightning-card>
+  <br />
+  <!-- PASSING DATA ON ACTION EXAMPLE  - p2cProgressComponent-->
+  <lightning-card title="Parent to child communication on action">
+    <div class="slds-var-m-around_medium">
+      <lightning-input
+        type="number"
+        label="Enter Percentage"
+        onkeyup={changeHandler}
+        value={percentage}
+      ></lightning-input>
+      <c-p2c-progress-component
+        progress-value={percentage}
+      ></c-p2c-progress-component>
+    </div>
+  </lightning-card>
 
-    <br />
-    <!-- CALLING CHILD METHOD FROM PARENT  - p2cSliderComponent-->
-    <lightning-button variant="brand" label="Reset Slider"
-    onclick={handleClick}></lightning-button>
-    <c-p2c-slider-component></c-p2c-slider-component>
+  <br />
+  <!-- CALLING CHILD METHOD FROM PARENT  - p2cSliderComponent-->
+  <lightning-button
+    variant="brand"
+    label="Reset Slider"
+    onclick={handleClick}
+  ></lightning-button>
+  <c-p2c-slider-component></c-p2c-slider-component>
 </template>

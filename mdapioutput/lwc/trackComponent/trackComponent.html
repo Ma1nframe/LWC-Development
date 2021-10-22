@@ -1,13 +1,21 @@
 <template>
-        <!-- Salesforce conponent library card -->
-        <lightning-card title="@track handling and spread operator">
-            <div class="slds-var-m-around_medium">
-                <lightning-input type="text" label="Track Operator" onkeyup={trackHandler}></lightning-input>
-                <br />
-                <div>{address.city} is my city</div>
-                <lightning-input type="text" label="Spread Operator" onkeyup={anotherTrackHandler}></lightning-input>
-                <br />
-                <div>{address.state} is my state</div>
-            </div>
-        </lightning-card>
+  <!-- Salesforce conponent library card -->
+  <lightning-card title="@track handling and spread operator">
+    <div class="slds-var-m-around_medium">
+      <lightning-input
+        type="text"
+        label="Track Operator"
+        onkeyup={trackHandler}
+      ></lightning-input>
+      <br />
+      <div>{address.city} is my city</div>
+      <lightning-input
+        type="text"
+        label="Spread Operator"
+        onkeyup={anotherTrackHandler}
+      ></lightning-input>
+      <br />
+      <div>{address.state} is my state</div>
+    </div>
+  </lightning-card>
 </template>

@@ -1,0 +1,16 @@
+<aura:component implements="flexipage:availableforAllPageTypes">
+  <!-- Aura attribute -->
+  <aura:attribute name="message" type="string" />
+  <lightning:card title="Aura to LWC Communication">
+    <div class="slds-var-p-around_medium">
+      <div>{!v.message}</div>
+    </div>
+    <div class="slds-var-p-around_medium">
+      <!-- Calling a method in aura requires different syntax. "{!c.handleMsg}". In aura !c. === (controller) -->
+      <c:lwcAuraCommunication
+        onsendmsg="{!c.handleMsg}"
+        title="Hello from Lightning component inside Aura"
+      ></c:lwcAuraCommunication>
+    </div>
+  </lightning:card>
+</aura:component>
